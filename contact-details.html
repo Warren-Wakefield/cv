@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <p>My contact details are as follows:</p>
+    <ul>
+      <li>072 914 1085</li>
+      <li>warrenwakefield@gmail.com</li>
+    </ul>
+    <hr>
+
+    <form class="" action="mailto:warrenwakefield@gmail.com" method="post" enctype="text/plain">
+      <p><strong>Your Details:</strong></p>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" value=""><br>
+      <label for="surname">Surname:</label>
+      <input type="text" name="surname" value=""><br>
+      <label for="yourEmail">Your email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label for="">Your Message:</label><br>
+      <textarea name="message" rows="5" cols="50"></textarea>
+
+      <p><strong>Select the skills you would like to acquire:</strong></p>
+      <input type="checkbox" name="desiredSkill1" value="html">
+      <label for="desiredSkill1">Html</label>
+      <input type="checkbox" name="desiredSkill2" value="css">
+      <label for="desiredSkill2">CSS</label>
+
+
+      <p><strong>Preferred method of contact:</strong></p>
+      <label for="email">Email</label>
+      <input type="radio" id="email" name="pref-contact" vaule="email" checked>
+      <label for="email">Post</label>
+      <input type="radio" id="post" name="pref-contact" vaule="post">
+      <label for="email">Fax</label>
+      <input type="radio" id="fax" name="pref-contact" vaule="fax">
+      <br><input type="submit" name="" >
+      <input type="reset" name="">
+    </form>
+
+  </body>
+</html>
